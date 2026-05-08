@@ -1,0 +1,31 @@
+{
+  "id": "fa101d5f-fe66-438e-8ba4-11107bb2a687",
+  "pipeline_type": "WORKSPACE",
+  "name": "ecom_dlt",
+  "clusters": [
+    {
+      "label": "default",
+      "autoscale": {
+        "min_workers": 1,
+        "max_workers": 1,
+        "mode": "ENHANCED"
+      }
+    }
+  ],
+  "libraries": [
+    {
+      "glob": {
+        "include": "/Workspace/Users/jayati.dutta@hitachids.com/dlt streaming tables setup for sales customers and prod ..."
+      }
+    }
+  ],
+  "schema": "dev",
+  "continuous": false,
+  "development": false,
+  "photon": false,
+  "edition": "ADVANCED",
+  "channel": "CURRENT",
+  "catalog": "us_west_2__prod",
+  "serverless": false,
+  "root_path": "/Workspace/Users/jayati.dutta@hitachids.com"
+}
