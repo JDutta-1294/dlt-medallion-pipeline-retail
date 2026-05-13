@@ -2,7 +2,7 @@ Designed and implemented an end-to-end Medallion Architecture pipeline in Databr
  
 Implemented a Medallion Architecture pipeline using Databricks Delta Live Tables (DLT), Spark SQL,auto-loader and Delta Lake. Developed Bronze, Silver, and Gold layers with SCD Type 1 and Type 2 implementation using AUTO CDC INTO on Delta Streaming Tables. Created external storage location to access S3 bucket, Configured Databricks clusters on AWS for scalable pipeline execution and integrated GitHub for version control.
  
-Built a Databricks DLT Medallion Architecture pipeline with Bronze, Silver, and Gold layers, implementing SCD Type 1 and Type 2 using APPLY CHANGES INTO on Delta Streaming Tables, along with cluster configuration and Git integration.
+Built a Databricks DLT Medallion Architecture pipeline with Bronze, Silver, and Gold layers, implementing SCD Type 1 and Type 2 using AUTO CDC INTO on Delta Streaming Tables, along with cluster configuration and Git integration.
  
 # Databricks Delta Live Tables (DLT) Pipeline
  
